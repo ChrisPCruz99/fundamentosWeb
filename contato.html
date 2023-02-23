@@ -8,57 +8,51 @@
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
-    <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
+    <nav>
+        <p>OBorderCollie</p>
+        <ul>
+          <li><a href="./index.html" class="disabled">Home</a></li>
+          <li><a href="./contato.html" >Contato</a></li>
+        </ul>
+      </nav>
+      <hr>
 
-    <h1 class="center">Entre em contato comigo</h1>
-    <div class="container mb50">
-        <div>
-            <form>
-                <div>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome">
-                </div>
-                <div>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email">
-                </div>
-                <div>
-                    <label for="assunto">Assunto:</label>
-                    <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-                </div>
+      <main class="contato">
+        <section class="formulario">
+          <h3>Contato</h2>
+          <form>
+            <div class="campos-form">
+              <label for="nome">Nome:</label>
+              <input id="nome" name="nome" type="text" placeholder="Insira o seu nome completo">
+            </div>
+
+            <div class="campos-form">
+                <label for="email">E-mail:</label>
+                 <input id="email" name="email" type="text" placeholder="Insira o seu e-mail">
+            </div>
+        
+            <div class="campos-form">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="8" placeholder="Deixem as mensagens aumigos!"></textarea>
+            </div>
                 
-                <button>Enviar</button>
-            </form>
+            <button type="submit">Enviar</button>
+        </form>
+        </section>
+      
+        <section>
+        <h3>Endereço</h2>
+        <div class="endereco">
+             <span>Rua Carlos Ângelo Mathion, nº 620</p>
+            <span>Jundiaí - SP - Brasil</p>
         </div>
-        <div class="ml50">
-            <h2>Endereço</h2>
-
-    <p style="font-size: 16px">Rua Paschoal Segue, 510</p>
-    <p style="font-size: 16px">Jundiaí/SP</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.4643176204017!2d-46.86643118555289!3d-23.189743453857492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf278f17e3b933%3A0x245ca7aa167630c!2sAdega%20Ice%20Beer!5e0!3m2!1spt-BR!2sbr!4v1676564873793!5m2!1spt-BR!2sbr" 
-    width="450" 
-    height="300" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-    </div>
-    <hr>
+  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.551090858418!2d-46.85593498555294!3d-23.186578753742406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf273d26221287%3A0xcf4458104fed3cc9!2sAv.%20Carlos%20%C3%82ngelo%20Mathion%2C%20620%20-%20Jardim%20Tamoio%2C%20Jundia%C3%AD%20-%20SP%2C%2013219-270!5e0!3m2!1spt-BR!2sbr!4v1676669846897!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </main>
+  
     <footer>
-        <div class="container espaco">
-            <a href="https://github.com/ChrisPCruz99">
-            <img class="tm-social" src="./assets/logotipo-do-github.png" alt="Logo Github"></a>
-            <a href="https://www.linkedin.com/in/christian-patrick-992816260/">
-            <img class="tm-social" src="./assets/logotipo-do-linkedin.png" alt="Logo instagran"></a>
-        </div>
-        <p class="center">
-        Todos os direitos reservados Christian Patrick &copy;
-        </p>
+      <p>Todos os direitos reservados Christian Patrick &copy;</p>
     </footer>
-</body>
-</html>
+    </body>
+  </html>   
